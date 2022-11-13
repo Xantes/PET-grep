@@ -1,8 +1,18 @@
 # PET-grep
 The repository is PET-project, that implements standard "grep" function in C language
+## Start the program
+After cloning this repository, use "make" command to create executive file.
+```
+make
+```
+If you want to re-create the executive file, you can use command "make rebuild"
+```
+make rebuild
+```
+Executive file will appear at the "src" directory with name "s21_grep"
 
-Usage:
-
+## Usage
+```
 s21_grep [-benst] [file ...] 
 
   -i, --ignore-case \
@@ -25,3 +35,4 @@ s21_grep [-benst] [file ...]
   		Obtain patterns from FILE, one per line. Can be used multiple times. \
   -e PATTERN, --regexp=PATTERNS  \
   		Use PATTERNS as the patterns. Can be used multiple times. 
+```
